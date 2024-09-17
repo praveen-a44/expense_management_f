@@ -1,0 +1,66 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for aligning the image and form */
+.wrapper {
+    display: flex;
+    justify-content: space-between; /* Space between image and form */
+    align-items: center;            /* Vertically center items */
+    height: 100vh;                  /* Full viewport height */
+    padding: 20px;
+}
+
+/* Styles for the image container */
+.image-container {
+    flex: 1;                        /* Take up equal space as the form container */
+    display: flex;
+    justify-content: center;        /* Center image horizontally */
+    align-items: center;            /* Center image vertically */
+}
+
+/* Make the image larger */
+.image-container img {
+    width: 500px;                   /* Set image width */
+    height: 500px;                  /* Set image height */
+}
+
+/* Styles for the form container */
+.form-container {
+    flex: 1;                        /* Take up equal space as the image container */
+    max-width: 400px;               /* Adjust width as needed */
+    background: #fff;               /* Background color for the form */
+    border-radius: 8px;             /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    text-align: center;
+    margin-right: 200px;              /* Shift form slightly to the right */
+}
+
+/* Input styling */
+input {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: rgb(72, 166, 254);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Heading styles */
+h1.set {
+    margin-top: 11vh;
+    margin-bottom: 0;
+}
+
+h1 {
+    text-align: center;
+}
